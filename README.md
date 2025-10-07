@@ -1,41 +1,23 @@
-# Cadastro de Funcionários
-
-## 📌 Descrição do Projeto
-Este projeto tem como objetivo criar uma aplicação web para **cadastrar, listar, atualizar e excluir funcionários**.  
-O sistema foi desenvolvido em **React (frontend)** e **Node.js com Express + PostgreSQL (backend)**.  
-
-A aplicação conta com:
-- Frontend para cadastro de funcionários (formulário).
-- Backend com rotas REST padronizadas em `/cadastrofuncionarios`.
-- Banco de dados PostgreSQL para armazenamento das informações.
-
----
-
-## 👨‍💻 Integrantes e Responsabilidades
-
-- **Vinicius Ielo Martins de Oliveira**  
-  - Desenvolvimento do **frontend em React**  
-  - Integração com o backend  
-  - Estilização e usabilidade da interface  
-
-- **Mateus \Foltran**  
-  - Desenvolvimento do **FrontEnd**  
-  - Criação das páginas em react
-  - Design e desenvolvimento no figma 
-
-- **Haigo Manoel**  
-  - Configuração do **banco de dados PostgreSQL**  
-  - Modelagem da tabela `funcionarios` e consultas SQL  
-
-
-
----
-
-## ⚙️ Instruções de Instalação e Execução
-
-### 🔹 Pré-requisitos
-- [Node.js](https://nodejs.org/) (versão 18+ recomendada)  
-- [PostgreSQL](https://www.postgresql.org/) instalado e configurado  
-
-
-
+Projeto de Autenticação com Google API
+Status do Projeto: Em Desenvolvimento
+📝 Descrição
+Este projeto é uma aplicação web desenvolvida para demonstrar a integração de um sistema de cadastro e login de usuários utilizando a API de Contas do Google (Google Identity Services). O objetivo principal é oferecer uma forma segura e simplificada para que os usuários acessem a plataforma, aproveitando suas contas Google existentes.
+✨ Funcionalidades
+Cadastro de Novos Usuários: Usuários podem se registrar na plataforma utilizando sua conta Google com um único clique.
+Login com Google: Usuários já cadastrados podem realizar o login de forma rápida e segura.
+Recuperação de Informações: Após a autenticação, a aplicação obtém informações básicas do perfil do usuário, como nome, e-mail e foto de perfil.
+Logout Seguro: Permite que o usuário encerre sua sessão de forma segura.
+🚀 Tecnologias Utilizadas
+Frontend:
+HTML5
+CSS3
+JavaScript
+React bootstrap
+Autenticação:
+Google Identity Services (OAuth 2.0)
+📋 Pré-requisitos
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+Git
+Um navegador web moderno (Google Chrome, Firefox, etc.)
+Um editor de código de sua preferência (ex: VSCode)
+Além disso, é necessário ter um projeto configurado no Google Cloud Console e um ID de Cliente OAuth 2.0 para que a autenticação funcione.
