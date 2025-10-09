@@ -9,6 +9,7 @@ function Cabecalho() {
         <li className="nav-item"><a href="/">Home</a></li>
         <li className="nav-item"><a href="/sobre">Sobre</a></li>
         <li className="nav-item"><a href="/contato">Contato</a></li>
+        <li className="nav-item"><a href="/login">Contato</a></li>
       </ul>
     </nav>
   </header>
